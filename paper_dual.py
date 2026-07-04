@@ -169,6 +169,7 @@ def save_ledger(f,L):
 def close_trade(L,tr,result,net_pct,close_ts):
     rp=abs(tr["entry"]-tr["sl"])/tr["entry"]*100; rm=net_pct/rp if rp>0 else 0
     L["equity"]*=(1+rm*RISK_PER_TRADE/100)
+    result = "WIN" if net_pct > 0 else "LOSS"   # label always matches P&L sign
     tr=dict(tr); tr.update(status=result,net_pct=round(net_pct,3),r_mult=round(rm,3),
                             closed_ts=close_ts,equity_after=round(L["equity"],2))
     L["closed"].append(tr)
@@ -186,7 +187,12 @@ def update_open(L,cbs,name,closed_msgs):
                 if x["h"]>=tr["sl"]: res="LOSS"; net=-(tr["sl"]-tr["entry"])/tr["entry"]*100-cost; close_trade(L,tr,res,net,x["t"]);hit=True;break
                 if x["l"]<=tr["target"]: res="WIN"; net=(tr["entry"]-tr["target"])/tr["entry"]*100-cost; close_trade(L,tr,res,net,x["t"]);hit=True;break
         if hit:
+            # single source of truth: the sign of net P&L decides WIN/LOSS
+            res = "WIN" if net > 0 else "LOSS"
             emoji="✅" if res=="WIN" else "❌"
+            # keep the stored trade's status consistent with the message
+            if L["closed"] and L["closed"][-1].get("symbol")==tr["symbol"]:
+                L["closed"][-1]["status"]=res
             closed_msgs.append(f"{emoji} <b>{name}</b> {tr['side']} <b>{tr['symbol']}</b> closed {res}\nP&L {net:+.2f}%  |  equity now ${L['equity']:,.0f}")
         else:
             keep.append(tr)
