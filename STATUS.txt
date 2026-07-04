@@ -1,8 +1,9 @@
-=== DUAL PAPER BOT — 2026-07-04 10:55 UTC ===
-BTCUSDT: fetch failed (451 Client Error:  for url: https://api.binance.com/api/v3/klines?symbol=BTCUSDT&interval=1h&limit=500)
-ETHUSDT: fetch failed (451 Client Error:  for url: https://api.binance.com/api/v3/klines?symbol=ETHUSDT&interval=1h&limit=500)
-SOLUSDT: fetch failed (451 Client Error:  for url: https://api.binance.com/api/v3/klines?symbol=SOLUSDT&interval=1h&limit=500)
-BNBUSDT: fetch failed (451 Client Error:  for url: https://api.binance.com/api/v3/klines?symbol=BNBUSDT&interval=1h&limit=500)
-XRPUSDT: fetch failed (451 Client Error:  for url: https://api.binance.com/api/v3/klines?symbol=XRPUSDT&interval=1h&limit=500)
-ORIGINAL: 0 closed, 0 open, equity $10,000
-MODIFIED: 0 closed, 0 open, equity $10,000
+=== DUAL PAPER BOT — 2026-07-04 11:02 UTC ===
+[ORIGINAL] NEW BUY BTCUSDT @ 65426.7800 tgt 65622.8300 sl 63551.4723 RR 0.1 (06-14 23:00)
+[ORIGINAL] NEW SELL ETHUSDT @ 1773.0800 tgt 1763.3600 sl 1813.8304 RR 0.24 (06-17 10:00)
+[ORIGINAL] NEW SELL SOLUSDT @ 72.5400 tgt 72.3100 sl 74.6189 RR 0.11 (06-17 10:00)
+[ORIGINAL] NEW SELL BNBUSDT @ 608.1600 tgt 608.0000 sl 614.2561 RR 0.03 (06-14 16:00)
+[ORIGINAL] NEW BUY XRPUSDT @ 1.1578 tgt 1.1639 sl 1.1203 RR 0.16 (06-22 13:00)
+[MODIFIED] NEW BUY BNBUSDT @ 578.0900 tgt 602.3100 sl 569.4289 RR 2.8 (06-24 00:00)
+ORIGINAL: 0 closed, 5 open, equity $10,000
+MODIFIED: 0 closed, 1 open, equity $10,000

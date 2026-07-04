@@ -1,6 +1,62 @@
 {
   "equity": 10000.0,
-  "open": [],
+  "open": [
+    {
+      "symbol": "BTCUSDT",
+      "side": "BUY",
+      "entry_ts": 1781478000000,
+      "entry": 65426.78,
+      "target": 65622.83,
+      "sl": 63551.47234,
+      "rr": 0.1,
+      "opened_at": "2026-07-04T11:02:24.854467+00:00",
+      "status": "OPEN"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "SELL",
+      "entry_ts": 1781690400000,
+      "entry": 1773.08,
+      "target": 1763.36,
+      "sl": 1813.83042,
+      "rr": 0.24,
+      "opened_at": "2026-07-04T11:02:24.857045+00:00",
+      "status": "OPEN"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "side": "SELL",
+      "entry_ts": 1781690400000,
+      "entry": 72.54,
+      "target": 72.31,
+      "sl": 74.61894,
+      "rr": 0.11,
+      "opened_at": "2026-07-04T11:02:24.859643+00:00",
+      "status": "OPEN"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "SELL",
+      "entry_ts": 1781452800000,
+      "entry": 608.16,
+      "target": 608.0,
+      "sl": 614.25606,
+      "rr": 0.03,
+      "opened_at": "2026-07-04T11:02:24.862065+00:00",
+      "status": "OPEN"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "BUY",
+      "entry_ts": 1782133200000,
+      "entry": 1.1578,
+      "target": 1.1639,
+      "sl": 1.120255,
+      "rr": 0.16,
+      "opened_at": "2026-07-04T11:02:24.864463+00:00",
+      "status": "OPEN"
+    }
+  ],
   "closed": [],
-  "last_scan_ts": 0
+  "last_scan_ts": 1783159200000
 }
