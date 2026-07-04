@@ -1,6 +1,7 @@
 {
-  "equity": 10000.0,
-  "open": [
+  "equity": 10030.109471973048,
+  "open": [],
+  "closed": [
     {
       "symbol": "BTCUSDT",
       "side": "BUY",
@@ -10,7 +11,11 @@
       "sl": 63551.47234,
       "rr": 0.1,
       "opened_at": "2026-07-04T11:02:24.854467+00:00",
-      "status": "OPEN"
+      "status": "WIN",
+      "net_pct": 0.16,
+      "r_mult": 0.056,
+      "closed_ts": 1781481600000,
+      "equity_after": 10005.57
     },
     {
       "symbol": "ETHUSDT",
@@ -21,7 +26,11 @@
       "sl": 1813.83042,
       "rr": 0.24,
       "opened_at": "2026-07-04T11:02:24.857045+00:00",
-      "status": "OPEN"
+      "status": "WIN",
+      "net_pct": 0.408,
+      "r_mult": 0.178,
+      "closed_ts": 1781694000000,
+      "equity_after": 10023.34
     },
     {
       "symbol": "SOLUSDT",
@@ -32,7 +41,11 @@
       "sl": 74.61894,
       "rr": 0.11,
       "opened_at": "2026-07-04T11:02:24.859643+00:00",
-      "status": "OPEN"
+      "status": "WIN",
+      "net_pct": 0.177,
+      "r_mult": 0.062,
+      "closed_ts": 1781694000000,
+      "equity_after": 10029.53
     },
     {
       "symbol": "BNBUSDT",
@@ -43,7 +56,11 @@
       "sl": 614.25606,
       "rr": 0.03,
       "opened_at": "2026-07-04T11:02:24.862065+00:00",
-      "status": "OPEN"
+      "status": "WIN",
+      "net_pct": -0.114,
+      "r_mult": -0.113,
+      "closed_ts": 1781456400000,
+      "equity_after": 10018.16
     },
     {
       "symbol": "XRPUSDT",
@@ -54,9 +71,12 @@
       "sl": 1.120255,
       "rr": 0.16,
       "opened_at": "2026-07-04T11:02:24.864463+00:00",
-      "status": "OPEN"
+      "status": "WIN",
+      "net_pct": 0.387,
+      "r_mult": 0.119,
+      "closed_ts": 1782136800000,
+      "equity_after": 10030.11
     }
   ],
-  "closed": [],
   "last_scan_ts": 1783159200000
 }
