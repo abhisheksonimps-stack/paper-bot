@@ -172,20 +172,24 @@ def close_trade(L,tr,result,net_pct,close_ts):
     tr=dict(tr); tr.update(status=result,net_pct=round(net_pct,3),r_mult=round(rm,3),
                             closed_ts=close_ts,equity_after=round(L["equity"],2))
     L["closed"].append(tr)
-def update_open(L,cbs):
+def update_open(L,cbs,name,closed_msgs):
     cost=(FEE_PCT+SLIPPAGE_PCT)*2; keep=[]
     for tr in L["open"]:
         c=cbs.get(tr["symbol"])
         if not c: keep.append(tr); continue
-        after=[x for x in c if x["t"]>tr["entry_ts"]]; hit=False
+        after=[x for x in c if x["t"]>tr["entry_ts"]]; hit=False; res=None; net=0
         for x in after:
             if tr["side"]=="BUY":
-                if x["l"]<=tr["sl"]: close_trade(L,tr,"LOSS",-(tr["entry"]-tr["sl"])/tr["entry"]*100-cost,x["t"]);hit=True;break
-                if x["h"]>=tr["target"]: close_trade(L,tr,"WIN",(tr["target"]-tr["entry"])/tr["entry"]*100-cost,x["t"]);hit=True;break
+                if x["l"]<=tr["sl"]: res="LOSS"; net=-(tr["entry"]-tr["sl"])/tr["entry"]*100-cost; close_trade(L,tr,res,net,x["t"]);hit=True;break
+                if x["h"]>=tr["target"]: res="WIN"; net=(tr["target"]-tr["entry"])/tr["entry"]*100-cost; close_trade(L,tr,res,net,x["t"]);hit=True;break
             else:
-                if x["h"]>=tr["sl"]: close_trade(L,tr,"LOSS",-(tr["sl"]-tr["entry"])/tr["entry"]*100-cost,x["t"]);hit=True;break
-                if x["l"]<=tr["target"]: close_trade(L,tr,"WIN",(tr["entry"]-tr["target"])/tr["entry"]*100-cost,x["t"]);hit=True;break
-        if not hit: keep.append(tr)
+                if x["h"]>=tr["sl"]: res="LOSS"; net=-(tr["sl"]-tr["entry"])/tr["entry"]*100-cost; close_trade(L,tr,res,net,x["t"]);hit=True;break
+                if x["l"]<=tr["target"]: res="WIN"; net=(tr["entry"]-tr["target"])/tr["entry"]*100-cost; close_trade(L,tr,res,net,x["t"]);hit=True;break
+        if hit:
+            emoji="✅" if res=="WIN" else "❌"
+            closed_msgs.append(f"{emoji} <b>{name}</b> {tr['side']} <b>{tr['symbol']}</b> closed {res}\nP&L {net:+.2f}%  |  equity now ${L['equity']:,.0f}")
+        else:
+            keep.append(tr)
     L["open"]=keep
 def have(L,sym,ts): return any(t["symbol"]==sym and t["entry_ts"]==ts for t in L["open"]+L["closed"])
 def summary(name,L):
@@ -205,8 +209,9 @@ def run(fetch_fn=fetch):
     for sym in WATCHLIST:
         try: cbs[sym]=fetch_fn(sym,INTERVAL,FETCH_LIMIT)
         except Exception as e: log.append(f"{sym}: fetch failed ({e})")
+    closed_msgs=[]
     for name,cfg in STRATS.items():
-        L=load_ledger(cfg["ledger"]); update_open(L,cbs)
+        L=load_ledger(cfg["ledger"]); update_open(L,cbs,name,closed_msgs)
         newest_ts=L.get("last_scan_ts",0); max_ts=newest_ts
         for sym in WATCHLIST:
             c=cbs.get(sym)
@@ -231,9 +236,15 @@ def run(fetch_fn=fetch):
     with open("STATUS.txt","w") as f: f.write(out+"\n")
     # Telegram: notify only when something happened (new signals), so you're
     # not pinged every idle hour. Includes the current scoreboard for context.
-    if fresh:
+    if fresh or closed_msgs:
         score="\n".join(summary(n,c["_L"]) for n,c in STRATS.items())
-        tg_send("🔔 <b>New paper signal(s)</b>\n\n" + "\n\n".join(fresh) + "\n\n📊 " + score)
+        parts=[]
+        if closed_msgs:
+            parts.append("🏁 <b>Trade(s) closed</b>\n\n" + "\n\n".join(closed_msgs))
+        if fresh:
+            parts.append("🔔 <b>New paper signal(s)</b>\n\n" + "\n\n".join(fresh))
+        parts.append("📊 " + score)
+        tg_send("\n\n".join(parts))
     return out
 
 if __name__=="__main__": run()
