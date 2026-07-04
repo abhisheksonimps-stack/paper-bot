@@ -30,11 +30,50 @@ STRATS = {
                      MIN_RR=2.0, RR_TARGET=2.5, ledger="ledger_modified.json"),
 }
 
-def fetch(sym, iv, limit):
-    url=f"https://api.binance.com/api/v3/klines?symbol={sym}&interval={iv}&limit={limit}"
+# Interval seconds map for Coinbase granularity
+_IV_SEC = {"1m":60,"5m":300,"15m":900,"1h":3600,"4h":14400,"1d":86400}
+
+def _from_binance_klines(data):
+    return [{"t":x[0],"o":float(x[1]),"h":float(x[2]),"l":float(x[3]),"c":float(x[4])} for x in data]
+
+def _fetch_binance_vision(sym, iv, limit):
+    # Binance public data mirror — usually NOT geo-blocked on cloud IPs
+    url=f"https://data-api.binance.vision/api/v3/klines?symbol={sym}&interval={iv}&limit={limit}"
     r=requests.get(url,timeout=30); r.raise_for_status()
-    rows=r.json()[:-1]   # drop still-forming candle
-    return [{"t":x[0],"o":float(x[1]),"h":float(x[2]),"l":float(x[3]),"c":float(x[4])} for x in rows]
+    return _from_binance_klines(r.json())
+
+def _fetch_okx(sym, iv, limit):
+    # OKX: symbol like BTC-USDT, bar like 1H/4H/1Hutc; returns newest-first
+    inst=sym.replace("USDT","-USDT")
+    barmap={"1m":"1m","5m":"5m","15m":"15m","1h":"1H","4h":"4H","1d":"1D"}
+    url=f"https://www.okx.com/api/v5/market/candles?instId={inst}&bar={barmap.get(iv,'1H')}&limit={min(limit,300)}"
+    r=requests.get(url,timeout=30); r.raise_for_status()
+    j=r.json()
+    rows=list(reversed(j.get("data",[])))   # oldest-first
+    return [{"t":int(x[0]),"o":float(x[1]),"h":float(x[2]),"l":float(x[3]),"c":float(x[4])} for x in rows]
+
+def _fetch_coinbase(sym, iv, limit):
+    # Coinbase Exchange: product like BTC-USD, granularity in seconds, newest-first, max 300
+    prod=sym.replace("USDT","-USD")
+    gran=_IV_SEC.get(iv,3600)
+    url=f"https://api.exchange.coinbase.com/products/{prod}/candles?granularity={gran}"
+    r=requests.get(url,timeout=30,headers={"User-Agent":"paper-bot"}); r.raise_for_status()
+    rows=list(reversed(r.json()))   # each: [time, low, high, open, close, volume]; oldest-first
+    return [{"t":int(x[0])*1000,"o":float(x[3]),"h":float(x[2]),"l":float(x[1]),"c":float(x[4])} for x in rows][-limit:]
+
+def fetch(sym, iv, limit):
+    """Try several public sources so a geo-block on one (e.g. Binance 451 from
+    US cloud IPs) doesn't stop the bot. Drops the still-forming last candle."""
+    sources=[_fetch_binance_vision, _fetch_okx, _fetch_coinbase]
+    last_err=None
+    for src in sources:
+        try:
+            rows=src(sym, iv, limit)
+            if rows and len(rows)>50:
+                return rows[:-1]   # drop still-forming candle
+        except Exception as e:
+            last_err=e; continue
+    raise RuntimeError(f"all sources failed (last: {last_err})")
 def eff_ratio(cl,i,n):
     if i<n: return None
     net=abs(cl[i]-cl[i-n]); path=sum(abs(cl[j]-cl[j-1]) for j in range(i-n+1,i+1))
