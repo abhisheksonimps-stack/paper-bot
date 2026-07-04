@@ -1,0 +1,27 @@
+name: paper-trade-bot
+
+on:
+  schedule:
+    - cron: '5 * * * *'      # every hour at :05 (UTC). GitHub may delay a bit; backfill covers it.
+  workflow_dispatch: {}       # lets you run it manually from the Actions tab / phone
+
+permissions:
+  contents: write             # allow the job to commit updated ledgers
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python paper_dual.py
+      - name: commit ledgers
+        run: |
+          git config user.name  "paper-bot"
+          git config user.email "paper-bot@users.noreply.github.com"
+          git add ledger_original.json ledger_modified.json STATUS.txt
+          git commit -m "update ledgers $(date -u +%Y-%m-%dT%H:%M)" || echo "nothing to commit"
+          git push
