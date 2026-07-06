@@ -1,6 +1,18 @@
 {
   "equity": 10105.781254169258,
-  "open": [],
+  "open": [
+    {
+      "symbol": "BNBUSDT",
+      "side": "SELL",
+      "entry_ts": 1783321200000,
+      "entry": 582.38,
+      "target": 582.0,
+      "sl": 594.65694,
+      "rr": 0.03,
+      "opened_at": "2026-07-06T10:25:54.415626+00:00",
+      "status": "OPEN"
+    }
+  ],
   "closed": [
     {
       "symbol": "BTCUSDT",
@@ -153,5 +165,5 @@
       "equity_after": 10105.78
     }
   ],
-  "last_scan_ts": 1783310400000
+  "last_scan_ts": 1783328400000
 }
