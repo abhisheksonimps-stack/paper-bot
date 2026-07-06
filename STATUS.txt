@@ -1,4 +1,5 @@
-=== DUAL PAPER BOT — 2026-07-06 10:25 UTC ===
-[ORIGINAL] NEW SELL BNBUSDT @ 582.3800 tgt 582.0000 sl 594.6569 RR 0.03 (07-06 07:00)
-ORIGINAL: 10 closed | win 90% | PF 25.78 | exp +0.287% | 1 open | equity $10,106 (+1.1%)
+=== DUAL PAPER BOT — 2026-07-06 14:27 UTC ===
+[ORIGINAL] NEW SELL BTCUSDT @ 61754.0100 tgt 61700.0000 sl 64126.9980 RR 0.02 (07-06 13:00)
+[ORIGINAL] NEW SELL BNBUSDT @ 577.4400 tgt 576.9400 sl 594.6569 RR 0.03 (07-06 10:00)
+ORIGINAL: 11 closed | win 82% | PF 15.66 | exp +0.255% | 2 open | equity $10,102 (+1.0%)
 MODIFIED: 1 closed | win 0% | PF 0.0 | exp -1.638% | 0 open | equity $9,891 (-1.1%)
