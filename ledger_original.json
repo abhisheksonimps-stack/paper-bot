@@ -22,6 +22,28 @@
       "rr": 0.0,
       "opened_at": "2026-07-06T17:45:07.066250+00:00",
       "status": "OPEN"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "BUY",
+      "entry_ts": 1783357200000,
+      "entry": 1792.5,
+      "target": 1796.08,
+      "sl": 1725.4921,
+      "rr": 0.05,
+      "opened_at": "2026-07-06T19:59:56.411729+00:00",
+      "status": "OPEN"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "side": "BUY",
+      "entry_ts": 1783357200000,
+      "entry": 82.1,
+      "target": 82.43,
+      "sl": 79.07154,
+      "rr": 0.11,
+      "opened_at": "2026-07-06T19:59:56.414031+00:00",
+      "status": "OPEN"
     }
   ],
   "closed": [
@@ -206,5 +228,5 @@
       "equity_after": 10100.39
     }
   ],
-  "last_scan_ts": 1783353600000
+  "last_scan_ts": 1783360800000
 }
