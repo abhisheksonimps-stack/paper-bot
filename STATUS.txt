@@ -1,3 +1,3 @@
-=== DUAL PAPER BOT — 2026-07-12 22:51 UTC ===
-ORIGINAL: 23 closed | win 61% | PF 1.22 | exp +0.043% | 1 open | equity $10,046 (+0.5%)
+=== DUAL PAPER BOT — 2026-07-12 23:56 UTC ===
+ORIGINAL: 24 closed | win 58% | PF 0.88 | exp -0.031% | 0 open | equity $9,937 (-0.6%)
 MODIFIED: 1 closed | win 0% | PF 0.0 | exp -1.638% | 1 open | equity $9,891 (-1.1%)
