@@ -1,5 +1,3 @@
-=== DUAL PAPER BOT — 2026-07-12 17:01 UTC ===
-[ORIGINAL] NEW BUY BTCUSDT @ 64176.0000 tgt 64243.7500 sl 63513.5483 RR 0.1 (07-12 16:00)
-[ORIGINAL] NEW BUY XRPUSDT @ 1.1021 tgt 1.1029 sl 1.0846 RR 0.05 (07-12 16:00)
+=== DUAL PAPER BOT — 2026-07-12 18:01 UTC ===
 ORIGINAL: 22 closed | win 64% | PF 1.22 | exp +0.047% | 2 open | equity $10,049 (+0.5%)
 MODIFIED: 1 closed | win 0% | PF 0.0 | exp -1.638% | 1 open | equity $9,891 (-1.1%)
