@@ -1,6 +1,29 @@
 {
   "equity": 10049.195649534246,
-  "open": [],
+  "open": [
+    {
+      "symbol": "BTCUSDT",
+      "side": "BUY",
+      "entry_ts": 1783872000000,
+      "entry": 64176.0,
+      "target": 64243.75,
+      "sl": 63513.54834,
+      "rr": 0.1,
+      "opened_at": "2026-07-12T17:01:33.723132+00:00",
+      "status": "OPEN"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "BUY",
+      "entry_ts": 1783872000000,
+      "entry": 1.1021,
+      "target": 1.1029,
+      "sl": 1.084626,
+      "rr": 0.05,
+      "opened_at": "2026-07-12T17:01:33.732643+00:00",
+      "status": "OPEN"
+    }
+  ],
   "closed": [
     {
       "symbol": "BTCUSDT",
@@ -333,5 +356,5 @@
       "equity_after": 10049.2
     }
   ],
-  "last_scan_ts": 1783868400000
+  "last_scan_ts": 1783872000000
 }
