@@ -1,3 +1,6 @@
-=== DUAL PAPER BOT — 2026-07-17 18:06 UTC ===
-ORIGINAL: 29 closed | win 55% | PF 0.87 | exp -0.031% | 0 open | equity $9,931 (-0.7%)
+=== DUAL PAPER BOT — 2026-07-17 20:06 UTC ===
+[ORIGINAL] NEW BUY ETHUSDT @ 1846.9800 tgt 1881.5900 sl 1799.4439 RR 0.73 (07-17 19:00)
+[ORIGINAL] NEW BUY SOLUSDT @ 75.3200 tgt 75.4800 sl 73.2432 RR 0.08 (07-17 19:00)
+[ORIGINAL] NEW BUY XRPUSDT @ 1.0923 tgt 1.0959 sl 1.0677 RR 0.15 (07-17 19:00)
+ORIGINAL: 29 closed | win 55% | PF 0.87 | exp -0.031% | 3 open | equity $9,931 (-0.7%)
 MODIFIED: 1 closed | win 0% | PF 0.0 | exp -1.638% | 1 open | equity $9,891 (-1.1%)
