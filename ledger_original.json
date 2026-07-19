@@ -1,5 +1,5 @@
 {
-  "equity": 9933.443030000775,
+  "equity": 9939.774190218208,
   "open": [
     {
       "symbol": "ETHUSDT",
@@ -10,17 +10,6 @@
       "sl": 1799.4439,
       "rr": 0.73,
       "opened_at": "2026-07-17T20:06:25.181962+00:00",
-      "status": "OPEN"
-    },
-    {
-      "symbol": "XRPUSDT",
-      "side": "BUY",
-      "entry_ts": 1784408400000,
-      "entry": 1.0935,
-      "target": 1.0958,
-      "sl": 1.081433,
-      "rr": 0.19,
-      "opened_at": "2026-07-18T22:51:32.616869+00:00",
       "status": "OPEN"
     }
   ],
@@ -549,7 +538,22 @@
       "r_mult": 0.055,
       "closed_ts": 1784408400000,
       "equity_after": 9933.44
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "BUY",
+      "entry_ts": 1784408400000,
+      "entry": 1.0935,
+      "target": 1.0958,
+      "sl": 1.081433,
+      "rr": 0.19,
+      "opened_at": "2026-07-18T22:51:32.616869+00:00",
+      "status": "WIN",
+      "net_pct": 0.07,
+      "r_mult": 0.064,
+      "closed_ts": 1784426400000,
+      "equity_after": 9939.77
     }
   ],
-  "last_scan_ts": 1784422800000
+  "last_scan_ts": 1784433600000
 }
