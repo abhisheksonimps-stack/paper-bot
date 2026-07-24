@@ -1,3 +1,5 @@
-=== DUAL PAPER BOT — 2026-07-24 13:47 UTC ===
-ORIGINAL: 44 closed | win 57% | PF 1.15 | exp +0.023% | 0 open | equity $10,006 (+0.1%)
+=== DUAL PAPER BOT — 2026-07-24 15:26 UTC ===
+[ORIGINAL] NEW SELL BNBUSDT @ 558.8900 tgt 555.5900 sl 572.4526 RR 0.24 (07-24 14:00)
+[ORIGINAL] NEW SELL XRPUSDT @ 1.0929 tgt 1.0914 sl 1.1237 RR 0.05 (07-24 14:00)
+ORIGINAL: 44 closed | win 57% | PF 1.15 | exp +0.023% | 2 open | equity $10,006 (+0.1%)
 MODIFIED: 2 closed | win 50% | PF 2.51 | exp +1.239% | 1 open | equity $10,120 (+1.2%)
