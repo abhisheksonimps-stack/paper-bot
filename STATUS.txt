@@ -1,4 +1,3 @@
-=== DUAL PAPER BOT — 2026-07-24 21:05 UTC ===
-[ORIGINAL] NEW SELL XRPUSDT @ 1.0874 tgt 1.0869 sl 1.1237 RR 0.01 (07-24 19:00)
+=== DUAL PAPER BOT — 2026-07-24 23:02 UTC ===
 ORIGINAL: 48 closed | win 52% | PF 1.12 | exp +0.018% | 2 open | equity $10,002 (+0.0%)
 MODIFIED: 2 closed | win 50% | PF 2.51 | exp +1.239% | 1 open | equity $10,120 (+1.2%)
