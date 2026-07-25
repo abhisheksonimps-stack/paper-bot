@@ -1,4 +1,4 @@
-=== DUAL PAPER BOT — 2026-07-25 19:08 UTC ===
-[ORIGINAL] NEW BUY BTCUSDT @ 64206.6100 tgt 64243.7500 sl 63682.3800 RR 0.07 (07-25 17:00)
-ORIGINAL: 49 closed | win 51% | PF 1.11 | exp +0.016% | 2 open | equity $9,999 (-0.0%)
+=== DUAL PAPER BOT — 2026-07-25 20:54 UTC ===
+[ORIGINAL] NEW BUY BTCUSDT @ 64415.9900 tgt 64425.0000 sl 63682.3800 RR 0.01 (07-25 19:00)
+ORIGINAL: 50 closed | win 50% | PF 1.1 | exp +0.014% | 2 open | equity $9,989 (-0.1%)
 MODIFIED: 2 closed | win 50% | PF 2.51 | exp +1.239% | 1 open | equity $10,120 (+1.2%)
