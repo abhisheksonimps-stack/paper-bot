@@ -1,15 +1,15 @@
 {
-  "equity": 9903.61431385678,
+  "equity": 9903.516243275617,
   "open": [
     {
       "symbol": "BNBUSDT",
       "side": "SELL",
-      "entry_ts": 1785610800000,
-      "entry": 576.59,
-      "target": 575.8,
+      "entry_ts": 1785614400000,
+      "entry": 575.74,
+      "target": 575.66,
       "sl": 593.9856,
-      "rr": 0.05,
-      "opened_at": "2026-08-01T20:54:17.572836+00:00",
+      "rr": 0.0,
+      "opened_at": "2026-08-01T21:57:48.010040+00:00",
       "status": "OPEN"
     }
   ],
@@ -958,7 +958,22 @@
       "r_mult": -0.013,
       "closed_ts": 1785607200000,
       "equity_after": 9903.61
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "SELL",
+      "entry_ts": 1785610800000,
+      "entry": 576.59,
+      "target": 575.8,
+      "sl": 593.9856,
+      "rr": 0.05,
+      "opened_at": "2026-08-01T20:54:17.572836+00:00",
+      "status": "LOSS",
+      "net_pct": -0.003,
+      "r_mult": -0.001,
+      "closed_ts": 1785614400000,
+      "equity_after": 9903.52
     }
   ],
-  "last_scan_ts": 1785610800000
+  "last_scan_ts": 1785614400000
 }
