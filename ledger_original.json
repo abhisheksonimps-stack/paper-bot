@@ -11,6 +11,17 @@
       "rr": 0.1,
       "opened_at": "2026-08-11T23:41:08.683506+00:00",
       "status": "OPEN"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "SELL",
+      "entry_ts": 1786572000000,
+      "entry": 1877.94,
+      "target": 1872.0,
+      "sl": 1928.85,
+      "rr": 0.12,
+      "opened_at": "2026-08-12T23:42:25.782141+00:00",
+      "status": "OPEN"
     }
   ],
   "closed": [
@@ -1515,5 +1526,5 @@
       "equity_after": 9902.12
     }
   ],
-  "last_scan_ts": 1786568400000
+  "last_scan_ts": 1786572000000
 }
