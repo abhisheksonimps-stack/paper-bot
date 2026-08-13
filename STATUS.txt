@@ -1,4 +1,5 @@
-=== DUAL PAPER BOT — 2026-08-13 06:17 UTC ===
-[ORIGINAL] NEW BUY SOLUSDT @ 76.1400 tgt 76.2500 sl 75.1993 RR 0.12 (08-13 05:00)
-ORIGINAL: 100 closed | win 52% | PF 0.99 | exp -0.002% | 3 open | equity $9,902 (-1.0%)
+=== DUAL PAPER BOT — 2026-08-13 08:22 UTC ===
+[ORIGINAL] NEW BUY BTCUSDT @ 63942.3600 tgt 64011.9900 sl 63183.7193 RR 0.09 (08-13 07:00)
+[ORIGINAL] NEW BUY SOLUSDT @ 76.5200 tgt 76.6700 sl 75.1993 RR 0.11 (08-13 06:00)
+ORIGINAL: 101 closed | win 52% | PF 0.99 | exp -0.002% | 4 open | equity $9,902 (-1.0%)
 MODIFIED: 3 closed | win 33% | PF 1.1 | exp +0.121% | 1 open | equity $10,011 (+0.1%)
