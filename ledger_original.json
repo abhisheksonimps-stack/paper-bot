@@ -11,6 +11,17 @@
       "rr": 0.1,
       "opened_at": "2026-08-11T23:41:08.683506+00:00",
       "status": "OPEN"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "SELL",
+      "entry_ts": 1786694400000,
+      "entry": 607.47,
+      "target": 607.17,
+      "sl": 614.1258,
+      "rr": 0.05,
+      "opened_at": "2026-08-14T10:03:30.865976+00:00",
+      "status": "OPEN"
     }
   ],
   "closed": [
@@ -1575,5 +1586,5 @@
       "equity_after": 9692.21
     }
   ],
-  "last_scan_ts": 1786690800000
+  "last_scan_ts": 1786698000000
 }
