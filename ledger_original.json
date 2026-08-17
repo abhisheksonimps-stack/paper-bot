@@ -1,18 +1,6 @@
 {
-  "equity": 9579.814412517864,
-  "open": [
-    {
-      "symbol": "BTCUSDT",
-      "side": "SELL",
-      "entry_ts": 1786921200000,
-      "entry": 62913.7,
-      "target": 62846.0,
-      "sl": 63516.78,
-      "rr": 0.11,
-      "opened_at": "2026-08-17T01:19:18.055003+00:00",
-      "status": "OPEN"
-    }
-  ],
+  "equity": 9576.577217414739,
+  "open": [],
   "closed": [
     {
       "symbol": "BTCUSDT",
@@ -1693,7 +1681,22 @@
       "r_mult": 0.209,
       "closed_ts": 1786917600000,
       "equity_after": 9579.81
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "SELL",
+      "entry_ts": 1786921200000,
+      "entry": 62913.7,
+      "target": 62846.0,
+      "sl": 63516.78,
+      "rr": 0.11,
+      "opened_at": "2026-08-17T01:19:18.055003+00:00",
+      "status": "LOSS",
+      "net_pct": -0.032,
+      "r_mult": -0.034,
+      "closed_ts": 1786924800000,
+      "equity_after": 9576.58
     }
   ],
-  "last_scan_ts": 1786924800000
+  "last_scan_ts": 1786932000000
 }
