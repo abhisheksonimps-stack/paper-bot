@@ -1,5 +1,5 @@
 {
-  "equity": 9550.359436974284,
+  "equity": 9441.911878281235,
   "open": [
     {
       "symbol": "BTCUSDT",
@@ -10,17 +10,6 @@
       "sl": 63899.7943,
       "rr": 0.14,
       "opened_at": "2026-08-18T17:27:47.957593+00:00",
-      "status": "OPEN"
-    },
-    {
-      "symbol": "XRPUSDT",
-      "side": "SELL",
-      "entry_ts": 1787108400000,
-      "entry": 0.9984,
-      "target": 0.9982,
-      "sl": 1.008713,
-      "rr": 0.02,
-      "opened_at": "2026-08-19T04:37:38.586857+00:00",
       "status": "OPEN"
     },
     {
@@ -1775,7 +1764,22 @@
       "r_mult": -0.199,
       "closed_ts": 1787119200000,
       "equity_after": 9550.36
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "SELL",
+      "entry_ts": 1787108400000,
+      "entry": 0.9984,
+      "target": 0.9982,
+      "sl": 1.008713,
+      "rr": 0.02,
+      "opened_at": "2026-08-19T04:37:38.586857+00:00",
+      "status": "LOSS",
+      "net_pct": -1.173,
+      "r_mult": -1.136,
+      "closed_ts": 1787126400000,
+      "equity_after": 9441.91
     }
   ],
-  "last_scan_ts": 1787122800000
+  "last_scan_ts": 1787126400000
 }
