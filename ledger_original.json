@@ -1,6 +1,18 @@
 {
   "equity": 9331.007911035651,
-  "open": [],
+  "open": [
+    {
+      "symbol": "SOLUSDT",
+      "side": "BUY",
+      "entry_ts": 1787450400000,
+      "entry": 96.0,
+      "target": 102.74,
+      "sl": 92.39484,
+      "rr": 1.87,
+      "opened_at": "2026-08-23T03:03:44.115215+00:00",
+      "status": "OPEN"
+    }
+  ],
   "closed": [
     {
       "symbol": "BTCUSDT",
@@ -1803,5 +1815,5 @@
       "equity_after": 9331.01
     }
   ],
-  "last_scan_ts": 1787443200000
+  "last_scan_ts": 1787450400000
 }
