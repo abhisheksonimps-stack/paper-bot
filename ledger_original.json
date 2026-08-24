@@ -11,6 +11,17 @@
       "rr": 0.82,
       "opened_at": "2026-08-23T23:21:49.963146+00:00",
       "status": "OPEN"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "side": "BUY",
+      "entry_ts": 1787576400000,
+      "entry": 96.29,
+      "target": 97.21,
+      "sl": 93.07348,
+      "rr": 0.29,
+      "opened_at": "2026-08-24T14:42:45.133808+00:00",
+      "status": "OPEN"
     }
   ],
   "closed": [
@@ -1890,5 +1901,5 @@
       "equity_after": 9095.22
     }
   ],
-  "last_scan_ts": 1787572800000
+  "last_scan_ts": 1787576400000
 }
