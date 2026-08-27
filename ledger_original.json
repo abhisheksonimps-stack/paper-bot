@@ -1,5 +1,5 @@
 {
-  "equity": 9193.720567457536,
+  "equity": 9220.432410363233,
   "open": [
     {
       "symbol": "BNBUSDT",
@@ -10,17 +10,6 @@
       "sl": 675.62604,
       "rr": 0.82,
       "opened_at": "2026-08-23T23:21:49.963146+00:00",
-      "status": "OPEN"
-    },
-    {
-      "symbol": "XRPUSDT",
-      "side": "BUY",
-      "entry_ts": 1787824800000,
-      "entry": 1.4359,
-      "target": 1.4513,
-      "sl": 1.389815,
-      "rr": 0.33,
-      "opened_at": "2026-08-27T13:52:54.829108+00:00",
       "status": "OPEN"
     }
   ],
@@ -1974,7 +1963,22 @@
       "r_mult": 0.59,
       "closed_ts": 1787817600000,
       "equity_after": 9193.72
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "BUY",
+      "entry_ts": 1787824800000,
+      "entry": 1.4359,
+      "target": 1.4513,
+      "sl": 1.389815,
+      "rr": 0.33,
+      "opened_at": "2026-08-27T13:52:54.829108+00:00",
+      "status": "WIN",
+      "net_pct": 0.932,
+      "r_mult": 0.291,
+      "closed_ts": 1787839200000,
+      "equity_after": 9220.43
     }
   ],
-  "last_scan_ts": 1787832000000
+  "last_scan_ts": 1787868000000
 }
