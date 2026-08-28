@@ -11,6 +11,17 @@
       "rr": 0.82,
       "opened_at": "2026-08-23T23:21:49.963146+00:00",
       "status": "OPEN"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "SELL",
+      "entry_ts": 1787896800000,
+      "entry": 79686.0,
+      "target": 78920.0,
+      "sl": 81641.82774,
+      "rr": 0.39,
+      "opened_at": "2026-08-28T10:04:57.142358+00:00",
+      "status": "OPEN"
     }
   ],
   "closed": [
@@ -1980,5 +1991,5 @@
       "equity_after": 9220.43
     }
   ],
-  "last_scan_ts": 1787868000000
+  "last_scan_ts": 1787907600000
 }
