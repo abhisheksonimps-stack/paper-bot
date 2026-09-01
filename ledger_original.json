@@ -1,18 +1,6 @@
 {
-  "equity": 9193.142171323016,
-  "open": [
-    {
-      "symbol": "BNBUSDT",
-      "side": "BUY",
-      "entry_ts": 1787522400000,
-      "entry": 703.29,
-      "target": 726.08,
-      "sl": 675.62604,
-      "rr": 0.82,
-      "opened_at": "2026-08-23T23:21:49.963146+00:00",
-      "status": "OPEN"
-    }
-  ],
+  "equity": 9097.938758564129,
+  "open": [],
   "closed": [
     {
       "symbol": "BTCUSDT",
@@ -2083,7 +2071,22 @@
       "r_mult": 0.028,
       "closed_ts": 1788267600000,
       "equity_after": 9193.14
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "BUY",
+      "entry_ts": 1787522400000,
+      "entry": 703.29,
+      "target": 726.08,
+      "sl": 675.62604,
+      "rr": 0.82,
+      "opened_at": "2026-08-23T23:21:49.963146+00:00",
+      "status": "LOSS",
+      "net_pct": -4.074,
+      "r_mult": -1.036,
+      "closed_ts": 1788285600000,
+      "equity_after": 9097.94
     }
   ],
-  "last_scan_ts": 1788282000000
+  "last_scan_ts": 1788292800000
 }
