@@ -1,29 +1,6 @@
 {
-  "equity": 9018.940819546311,
-  "open": [
-    {
-      "symbol": "ETHUSDT",
-      "side": "SELL",
-      "entry_ts": 1788530400000,
-      "entry": 2452.26,
-      "target": 2451.79,
-      "sl": 2551.75332,
-      "rr": 0.0,
-      "opened_at": "2026-09-04T17:24:26.252652+00:00",
-      "status": "OPEN"
-    },
-    {
-      "symbol": "XRPUSDT",
-      "side": "SELL",
-      "entry_ts": 1788530400000,
-      "entry": 1.4135,
-      "target": 1.4043,
-      "sl": 1.465425,
-      "rr": 0.18,
-      "opened_at": "2026-09-04T17:24:26.258286+00:00",
-      "status": "OPEN"
-    }
-  ],
+  "equity": 9028.793464602655,
+  "open": [],
   "closed": [
     {
       "symbol": "BTCUSDT",
@@ -2139,7 +2116,37 @@
       "r_mult": -1.054,
       "closed_ts": 1788440400000,
       "equity_after": 9018.94
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "SELL",
+      "entry_ts": 1788530400000,
+      "entry": 2452.26,
+      "target": 2451.79,
+      "sl": 2551.75332,
+      "rr": 0.0,
+      "opened_at": "2026-09-04T17:24:26.252652+00:00",
+      "status": "LOSS",
+      "net_pct": -0.121,
+      "r_mult": -0.03,
+      "closed_ts": 1788534000000,
+      "equity_after": 9016.25
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "SELL",
+      "entry_ts": 1788530400000,
+      "entry": 1.4135,
+      "target": 1.4043,
+      "sl": 1.465425,
+      "rr": 0.18,
+      "opened_at": "2026-09-04T17:24:26.258286+00:00",
+      "status": "WIN",
+      "net_pct": 0.511,
+      "r_mult": 0.139,
+      "closed_ts": 1788534000000,
+      "equity_after": 9028.79
     }
   ],
-  "last_scan_ts": 1788537600000
+  "last_scan_ts": 1788548400000
 }
