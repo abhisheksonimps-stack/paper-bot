@@ -11,6 +11,17 @@
       "rr": 1.54,
       "opened_at": "2026-09-06T10:27:20.309356+00:00",
       "status": "OPEN"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "BUY",
+      "entry_ts": 1788933600000,
+      "entry": 1.4277,
+      "target": 1.4279,
+      "sl": 1.407679,
+      "rr": 0.01,
+      "opened_at": "2026-09-09T08:45:00.812948+00:00",
+      "status": "OPEN"
     }
   ],
   "closed": [
@@ -2295,5 +2306,5 @@
       "equity_after": 8972.55
     }
   ],
-  "last_scan_ts": 1788919200000
+  "last_scan_ts": 1788937200000
 }
