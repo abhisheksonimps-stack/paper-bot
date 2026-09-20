@@ -1,6 +1,18 @@
 {
   "equity": 9090.599352312523,
-  "open": [],
+  "open": [
+    {
+      "symbol": "XRPUSDT",
+      "side": "BUY",
+      "entry_ts": 1789923600000,
+      "entry": 1.4104,
+      "target": 1.4138,
+      "sl": 1.370753,
+      "rr": 0.09,
+      "opened_at": "2026-09-20T18:02:55.271580+00:00",
+      "status": "OPEN"
+    }
+  ],
   "closed": [
     {
       "symbol": "BTCUSDT",
@@ -2493,5 +2505,5 @@
       "equity_after": 9090.6
     }
   ],
-  "last_scan_ts": 1789909200000
+  "last_scan_ts": 1789923600000
 }
