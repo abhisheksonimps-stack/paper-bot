@@ -1,3 +1,6 @@
-=== DUAL PAPER BOT — 2026-09-24 07:20 UTC ===
-ORIGINAL: 176 closed | win 54% | PF 0.77 | exp -0.060% | 0 open | equity $9,235 (-7.6%)
-MODIFIED: 10 closed | win 10% | PF 0.2 | exp -1.617% | 2 open | equity $9,271 (-7.3%)
+=== DUAL PAPER BOT — 2026-09-24 13:19 UTC ===
+[ORIGINAL] NEW SELL ETHUSDT @ 2642.4100 tgt 2635.3900 sl 2709.4882 RR 0.1 (09-24 10:00)
+[ORIGINAL] NEW SELL XRPUSDT @ 1.4581 tgt 1.4384 sl 1.5224 RR 0.31 (09-24 10:00)
+[MODIFIED] NEW SELL XRPUSDT @ 1.4581 tgt 1.2900 sl 1.5224 RR 2.61 (09-24 10:00)
+ORIGINAL: 176 closed | win 54% | PF 0.77 | exp -0.060% | 2 open | equity $9,235 (-7.6%)
+MODIFIED: 10 closed | win 10% | PF 0.2 | exp -1.617% | 3 open | equity $9,271 (-7.3%)
