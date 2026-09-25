@@ -1,3 +1,4 @@
-=== DUAL PAPER BOT — 2026-09-25 11:21 UTC ===
-ORIGINAL: 179 closed | win 54% | PF 0.68 | exp -0.096% | 1 open | equity $9,057 (-9.4%)
+=== DUAL PAPER BOT — 2026-09-25 16:45 UTC ===
+[ORIGINAL] NEW BUY ETHUSDT @ 2713.9700 tgt 2743.0000 sl 2661.9953 RR 0.56 (09-25 11:00)
+ORIGINAL: 180 closed | win 53% | PF 0.66 | exp -0.107% | 1 open | equity $8,960 (-10.4%)
 MODIFIED: 11 closed | win 9% | PF 0.17 | exp -1.884% | 2 open | equity $9,175 (-8.2%)
