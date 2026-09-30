@@ -1,5 +1,5 @@
 {
-  "equity": 8788.262335434289,
+  "equity": 8696.082576842056,
   "open": [
     {
       "symbol": "ETHUSDT",
@@ -10,17 +10,6 @@
       "sl": 2646.8956,
       "rr": 0.07,
       "opened_at": "2026-09-29T19:10:02.136413+00:00",
-      "status": "OPEN"
-    },
-    {
-      "symbol": "SOLUSDT",
-      "side": "BUY",
-      "entry_ts": 1790776800000,
-      "entry": 121.04,
-      "target": 121.69,
-      "sl": 117.57438,
-      "rr": 0.19,
-      "opened_at": "2026-09-30T16:42:15.364184+00:00",
       "status": "OPEN"
     }
   ],
@@ -2844,7 +2833,22 @@
       "r_mult": 0.054,
       "closed_ts": 1790690400000,
       "equity_after": 8788.26
+    },
+    {
+      "symbol": "SOLUSDT",
+      "side": "BUY",
+      "entry_ts": 1790776800000,
+      "entry": 121.04,
+      "target": 121.69,
+      "sl": 117.57438,
+      "rr": 0.19,
+      "opened_at": "2026-09-30T16:42:15.364184+00:00",
+      "status": "LOSS",
+      "net_pct": -3.003,
+      "r_mult": -1.049,
+      "closed_ts": 1790794800000,
+      "equity_after": 8696.08
     }
   ],
-  "last_scan_ts": 1790780400000
+  "last_scan_ts": 1790798400000
 }
