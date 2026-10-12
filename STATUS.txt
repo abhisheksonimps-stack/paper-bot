@@ -1,3 +1,6 @@
-=== DUAL PAPER BOT — 2026-10-12 07:14 UTC ===
-ORIGINAL: 203 closed | win 53% | PF 0.53 | exp -0.170% | 1 open | equity $8,492 (-15.1%)
+=== DUAL PAPER BOT — 2026-10-12 17:28 UTC ===
+[ORIGINAL] NEW SELL BTCUSDT @ 82968.6000 tgt 82956.1100 sl 84520.7040 RR 0.01 (10-12 14:00)
+[ORIGINAL] NEW SELL SOLUSDT @ 108.9100 tgt 108.4500 sl 113.6268 RR 0.1 (10-12 16:00)
+[ORIGINAL] NEW SELL XRPUSDT @ 1.3903 tgt 1.3890 sl 1.4242 RR 0.04 (10-12 13:00)
+ORIGINAL: 203 closed | win 53% | PF 0.53 | exp -0.170% | 4 open | equity $8,492 (-15.1%)
 MODIFIED: 12 closed | win 17% | PF 0.46 | exp -1.122% | 2 open | equity $9,406 (-5.9%)
