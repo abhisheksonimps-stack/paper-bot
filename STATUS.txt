@@ -1,5 +1,3 @@
-=== DUAL PAPER BOT — 2026-10-14 16:43 UTC ===
-[ORIGINAL] NEW SELL ETHUSDT @ 2476.5500 tgt 2474.3400 sl 2535.5009 RR 0.04 (10-14 13:00)
-[ORIGINAL] NEW SELL SOLUSDT @ 105.4900 tgt 101.6900 sl 108.8873 RR 1.12 (10-14 13:00)
-ORIGINAL: 215 closed | win 53% | PF 0.57 | exp -0.151% | 2 open | equity $8,466 (-15.3%)
+=== DUAL PAPER BOT — 2026-10-14 20:29 UTC ===
+ORIGINAL: 216 closed | win 53% | PF 0.57 | exp -0.151% | 1 open | equity $8,464 (-15.4%)
 MODIFIED: 12 closed | win 17% | PF 0.46 | exp -1.122% | 2 open | equity $9,406 (-5.9%)
