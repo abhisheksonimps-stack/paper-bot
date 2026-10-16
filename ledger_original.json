@@ -1,5 +1,5 @@
 {
-  "equity": 8573.986649783814,
+  "equity": 8479.358954045256,
   "open": [
     {
       "symbol": "BNBUSDT",
@@ -24,14 +24,25 @@
       "status": "OPEN"
     },
     {
-      "symbol": "BTCUSDT",
-      "side": "BUY",
-      "entry_ts": 1792152000000,
-      "entry": 82640.74,
-      "target": 82767.71,
-      "sl": 81524.624,
+      "symbol": "ETHUSDT",
+      "side": "SELL",
+      "entry_ts": 1792170000000,
+      "entry": 2432.19,
+      "target": 2424.51,
+      "sl": 2498.988,
       "rr": 0.11,
-      "opened_at": "2026-10-16T15:16:40.246004+00:00",
+      "opened_at": "2026-10-16T19:23:46.290247+00:00",
+      "status": "OPEN"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "side": "SELL",
+      "entry_ts": 1792170000000,
+      "entry": 104.04,
+      "target": 103.7,
+      "sl": 107.65488,
+      "rr": 0.09,
+      "opened_at": "2026-10-16T19:23:46.292159+00:00",
       "status": "OPEN"
     }
   ],
@@ -3305,7 +3316,22 @@
       "r_mult": 0.221,
       "closed_ts": 1792148400000,
       "equity_after": 8573.99
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "BUY",
+      "entry_ts": 1792152000000,
+      "entry": 82640.74,
+      "target": 82767.71,
+      "sl": 81524.624,
+      "rr": 0.11,
+      "opened_at": "2026-10-16T15:16:40.246004+00:00",
+      "status": "LOSS",
+      "net_pct": -1.491,
+      "r_mult": -1.104,
+      "closed_ts": 1792162800000,
+      "equity_after": 8479.36
     }
   ],
-  "last_scan_ts": 1792159200000
+  "last_scan_ts": 1792173600000
 }
