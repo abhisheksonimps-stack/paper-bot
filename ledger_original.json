@@ -1,17 +1,6 @@
 {
-  "equity": 8243.611079999375,
+  "equity": 8253.95785381907,
   "open": [
-    {
-      "symbol": "BTCUSDT",
-      "side": "BUY",
-      "entry_ts": 1792368000000,
-      "entry": 82116.0,
-      "target": 82295.47,
-      "sl": 80522.99128,
-      "rr": 0.11,
-      "opened_at": "2026-10-19T05:49:30.745912+00:00",
-      "status": "OPEN"
-    },
     {
       "symbol": "SOLUSDT",
       "side": "BUY",
@@ -24,14 +13,14 @@
       "status": "OPEN"
     },
     {
-      "symbol": "XRPUSDT",
+      "symbol": "BTCUSDT",
       "side": "BUY",
-      "entry_ts": 1792371600000,
-      "entry": 1.3063,
-      "target": 1.3126,
-      "sl": 1.253688,
-      "rr": 0.12,
-      "opened_at": "2026-10-19T05:49:30.755283+00:00",
+      "entry_ts": 1792386000000,
+      "entry": 82783.54,
+      "target": 82940.81,
+      "sl": 80522.99128,
+      "rr": 0.07,
+      "opened_at": "2026-10-19T12:25:24.716373+00:00",
       "status": "OPEN"
     }
   ],
@@ -3440,7 +3429,37 @@
       "r_mult": -0.032,
       "closed_ts": 1792350000000,
       "equity_after": 8243.61
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "BUY",
+      "entry_ts": 1792368000000,
+      "entry": 82116.0,
+      "target": 82295.47,
+      "sl": 80522.99128,
+      "rr": 0.11,
+      "opened_at": "2026-10-19T05:49:30.745912+00:00",
+      "status": "WIN",
+      "net_pct": 0.079,
+      "r_mult": 0.04,
+      "closed_ts": 1792371600000,
+      "equity_after": 8246.95
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "BUY",
+      "entry_ts": 1792371600000,
+      "entry": 1.3063,
+      "target": 1.3126,
+      "sl": 1.253688,
+      "rr": 0.12,
+      "opened_at": "2026-10-19T05:49:30.755283+00:00",
+      "status": "WIN",
+      "net_pct": 0.342,
+      "r_mult": 0.085,
+      "closed_ts": 1792375200000,
+      "equity_after": 8253.96
     }
   ],
-  "last_scan_ts": 1792382400000
+  "last_scan_ts": 1792407600000
 }
