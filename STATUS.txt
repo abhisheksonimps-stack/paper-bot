@@ -1,3 +1,4 @@
-=== DUAL PAPER BOT — 2026-10-24 20:23 UTC ===
-ORIGINAL: 242 closed | win 53% | PF 0.58 | exp -0.151% | 0 open | equity $8,278 (-17.2%)
+=== DUAL PAPER BOT — 2026-10-24 22:56 UTC ===
+[ORIGINAL] NEW BUY XRPUSDT @ 1.2915 tgt 1.2961 sl 1.2521 RR 0.12 (10-24 21:00)
+ORIGINAL: 242 closed | win 53% | PF 0.58 | exp -0.151% | 1 open | equity $8,278 (-17.2%)
 MODIFIED: 13 closed | win 23% | PF 0.93 | exp -0.143% | 1 open | equity $9,650 (-3.5%)
