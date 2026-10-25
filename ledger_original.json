@@ -1,15 +1,15 @@
 {
-  "equity": 8278.127563416912,
+  "equity": 8283.992138601338,
   "open": [
     {
       "symbol": "XRPUSDT",
       "side": "BUY",
-      "entry_ts": 1792875600000,
-      "entry": 1.2915,
+      "entry_ts": 1792879200000,
+      "entry": 1.2928,
       "target": 1.2961,
       "sl": 1.252091,
-      "rr": 0.12,
-      "opened_at": "2026-10-24T22:56:57.475866+00:00",
+      "rr": 0.08,
+      "opened_at": "2026-10-25T00:53:14.613879+00:00",
       "status": "OPEN"
     }
   ],
@@ -3643,7 +3643,22 @@
       "r_mult": 0.106,
       "closed_ts": 1792803600000,
       "equity_after": 8278.13
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "BUY",
+      "entry_ts": 1792875600000,
+      "entry": 1.2915,
+      "target": 1.2961,
+      "sl": 1.252091,
+      "rr": 0.12,
+      "opened_at": "2026-10-24T22:56:57.475866+00:00",
+      "status": "WIN",
+      "net_pct": 0.216,
+      "r_mult": 0.071,
+      "closed_ts": 1792879200000,
+      "equity_after": 8283.99
     }
   ],
-  "last_scan_ts": 1792875600000
+  "last_scan_ts": 1792882800000
 }
