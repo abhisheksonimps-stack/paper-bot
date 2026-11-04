@@ -1,37 +1,15 @@
 {
-  "equity": 8276.526745489471,
+  "equity": 8325.39835301635,
   "open": [
     {
       "symbol": "ETHUSDT",
       "side": "BUY",
-      "entry_ts": 1793786400000,
-      "entry": 2322.61,
-      "target": 2333.97,
+      "entry_ts": 1793808000000,
+      "entry": 2426.0,
+      "target": 2427.76,
       "sl": 2221.98712,
-      "rr": 0.11,
-      "opened_at": "2026-11-04T16:54:57.666327+00:00",
-      "status": "OPEN"
-    },
-    {
-      "symbol": "SOLUSDT",
-      "side": "BUY",
-      "entry_ts": 1793779200000,
-      "entry": 93.05,
-      "target": 94.96,
-      "sl": 89.68028,
-      "rr": 0.57,
-      "opened_at": "2026-11-04T16:54:57.668484+00:00",
-      "status": "OPEN"
-    },
-    {
-      "symbol": "BNBUSDT",
-      "side": "BUY",
-      "entry_ts": 1793782800000,
-      "entry": 702.75,
-      "target": 703.3,
-      "sl": 679.37852,
-      "rr": 0.02,
-      "opened_at": "2026-11-04T16:54:57.670604+00:00",
+      "rr": 0.01,
+      "opened_at": "2026-11-04T22:28:11.723861+00:00",
       "status": "OPEN"
     }
   ],
@@ -3980,7 +3958,52 @@
       "r_mult": 0.542,
       "closed_ts": 1793800800000,
       "equity_after": 8276.53
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "BUY",
+      "entry_ts": 1793786400000,
+      "entry": 2322.61,
+      "target": 2333.97,
+      "sl": 2221.98712,
+      "rr": 0.11,
+      "opened_at": "2026-11-04T16:54:57.666327+00:00",
+      "status": "WIN",
+      "net_pct": 0.349,
+      "r_mult": 0.081,
+      "closed_ts": 1793790000000,
+      "equity_after": 8283.2
+    },
+    {
+      "symbol": "SOLUSDT",
+      "side": "BUY",
+      "entry_ts": 1793779200000,
+      "entry": 93.05,
+      "target": 94.96,
+      "sl": 89.68028,
+      "rr": 0.57,
+      "opened_at": "2026-11-04T16:54:57.668484+00:00",
+      "status": "WIN",
+      "net_pct": 1.913,
+      "r_mult": 0.528,
+      "closed_ts": 1793800800000,
+      "equity_after": 8326.94
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "BUY",
+      "entry_ts": 1793782800000,
+      "entry": 702.75,
+      "target": 703.3,
+      "sl": 679.37852,
+      "rr": 0.02,
+      "opened_at": "2026-11-04T16:54:57.670604+00:00",
+      "status": "LOSS",
+      "net_pct": -0.062,
+      "r_mult": -0.019,
+      "closed_ts": 1793786400000,
+      "equity_after": 8325.4
     }
   ],
-  "last_scan_ts": 1793804400000
+  "last_scan_ts": 1793826000000
 }
