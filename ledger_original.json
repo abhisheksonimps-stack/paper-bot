@@ -1,37 +1,15 @@
 {
-  "equity": 8320.678266082707,
+  "equity": 8304.28285209068,
   "open": [
-    {
-      "symbol": "BTCUSDT",
-      "side": "SELL",
-      "entry_ts": 1794160800000,
-      "entry": 75754.0,
-      "target": 75736.38,
-      "sl": 76352.4,
-      "rr": 0.03,
-      "opened_at": "2026-11-08T21:47:30.807398+00:00",
-      "status": "OPEN"
-    },
     {
       "symbol": "ETHUSDT",
       "side": "SELL",
-      "entry_ts": 1794157200000,
-      "entry": 2230.8,
-      "target": 2229.92,
+      "entry_ts": 1794171600000,
+      "entry": 2226.78,
+      "target": 2226.44,
       "sl": 2250.492,
-      "rr": 0.04,
-      "opened_at": "2026-11-08T21:47:30.808617+00:00",
-      "status": "OPEN"
-    },
-    {
-      "symbol": "XRPUSDT",
-      "side": "SELL",
-      "entry_ts": 1794157200000,
-      "entry": 1.1555,
-      "target": 1.1528,
-      "sl": 1.17224,
-      "rr": 0.16,
-      "opened_at": "2026-11-08T21:47:30.812089+00:00",
+      "rr": 0.01,
+      "opened_at": "2026-11-09T01:29:04.859087+00:00",
       "status": "OPEN"
     }
   ],
@@ -4055,7 +4033,52 @@
       "r_mult": -0.049,
       "closed_ts": 1793880000000,
       "equity_after": 8320.68
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "SELL",
+      "entry_ts": 1794160800000,
+      "entry": 75754.0,
+      "target": 75736.38,
+      "sl": 76352.4,
+      "rr": 0.03,
+      "opened_at": "2026-11-08T21:47:30.807398+00:00",
+      "status": "LOSS",
+      "net_pct": -0.117,
+      "r_mult": -0.148,
+      "closed_ts": 1794171600000,
+      "equity_after": 8308.38
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "SELL",
+      "entry_ts": 1794157200000,
+      "entry": 2230.8,
+      "target": 2229.92,
+      "sl": 2250.492,
+      "rr": 0.04,
+      "opened_at": "2026-11-08T21:47:30.808617+00:00",
+      "status": "LOSS",
+      "net_pct": -0.101,
+      "r_mult": -0.114,
+      "closed_ts": 1794160800000,
+      "equity_after": 8298.92
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "SELL",
+      "entry_ts": 1794157200000,
+      "entry": 1.1555,
+      "target": 1.1528,
+      "sl": 1.17224,
+      "rr": 0.16,
+      "opened_at": "2026-11-08T21:47:30.812089+00:00",
+      "status": "WIN",
+      "net_pct": 0.094,
+      "r_mult": 0.065,
+      "closed_ts": 1794164400000,
+      "equity_after": 8304.28
     }
   ],
-  "last_scan_ts": 1794168000000
+  "last_scan_ts": 1794182400000
 }
