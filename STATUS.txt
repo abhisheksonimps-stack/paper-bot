@@ -1,3 +1,4 @@
-=== DUAL PAPER BOT — 2026-11-10 12:14 UTC ===
-ORIGINAL: 272 closed | win 53% | PF 0.63 | exp -0.129% | 0 open | equity $8,295 (-17.1%)
+=== DUAL PAPER BOT — 2026-11-10 20:17 UTC ===
+[ORIGINAL] NEW SELL BNBUSDT @ 677.0100 tgt 673.3100 sl 693.8850 RR 0.22 (11-10 16:00)
+ORIGINAL: 272 closed | win 53% | PF 0.63 | exp -0.129% | 1 open | equity $8,295 (-17.1%)
 MODIFIED: 17 closed | win 35% | PF 1.38 | exp +0.608% | 0 open | equity $10,207 (+2.1%)
