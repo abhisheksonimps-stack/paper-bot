@@ -1,6 +1,18 @@
 {
   "equity": 8313.39091242484,
-  "open": [],
+  "open": [
+    {
+      "symbol": "ETHUSDT",
+      "side": "SELL",
+      "entry_ts": 1794834000000,
+      "entry": 1800.1,
+      "target": 1794.43,
+      "sl": 1846.5357,
+      "rr": 0.12,
+      "opened_at": "2026-11-16T20:49:35.319239+00:00",
+      "status": "OPEN"
+    }
+  ],
   "closed": [
     {
       "symbol": "BTCUSDT",
@@ -4113,5 +4125,5 @@
       "equity_after": 8313.39
     }
   ],
-  "last_scan_ts": 1794819600000
+  "last_scan_ts": 1794855600000
 }
