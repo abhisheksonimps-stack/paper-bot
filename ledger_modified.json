@@ -1,6 +1,18 @@
 {
   "equity": 10207.145639542436,
-  "open": [],
+  "open": [
+    {
+      "symbol": "SOLUSDT",
+      "side": "BUY",
+      "entry_ts": 1795420800000,
+      "entry": 72.05,
+      "target": 78.48,
+      "sl": 69.75022,
+      "rr": 2.8,
+      "opened_at": "2026-11-23T19:01:02.078978+00:00",
+      "status": "OPEN"
+    }
+  ],
   "closed": [
     {
       "symbol": "BNBUSDT",
@@ -258,5 +270,5 @@
       "equity_after": 10207.15
     }
   ],
-  "last_scan_ts": 1795410000000
+  "last_scan_ts": 1795456800000
 }

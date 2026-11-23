@@ -1,4 +1,7 @@
-=== DUAL PAPER BOT — 2026-11-23 06:16 UTC ===
-[ORIGINAL] NEW BUY SOLUSDT @ 71.3400 tgt 71.4300 sl 69.7502 RR 0.06 (11-23 05:00)
-ORIGINAL: 280 closed | win 54% | PF 0.63 | exp -0.132% | 5 open | equity $8,187 (-18.1%)
-MODIFIED: 17 closed | win 35% | PF 1.38 | exp +0.608% | 0 open | equity $10,207 (+2.1%)
+=== DUAL PAPER BOT — 2026-11-23 19:00 UTC ===
+[ORIGINAL] NEW BUY SOLUSDT @ 71.8700 tgt 72.0300 sl 69.7502 RR 0.08 (11-23 06:00)
+[ORIGINAL] NEW BUY BNBUSDT @ 571.8900 tgt 576.1900 sl 552.6525 RR 0.22 (11-23 15:00)
+[ORIGINAL] NEW BUY XRPUSDT @ 0.9419 tgt 0.9468 sl 0.9112 RR 0.16 (11-23 06:00)
+[MODIFIED] NEW BUY SOLUSDT @ 72.0500 tgt 78.4800 sl 69.7502 RR 2.8 (11-23 08:00)
+ORIGINAL: 285 closed | win 54% | PF 0.8 | exp -0.070% | 3 open | equity $8,380 (-16.2%)
+MODIFIED: 17 closed | win 35% | PF 1.38 | exp +0.608% | 1 open | equity $10,207 (+2.1%)
