@@ -1,3 +1,4 @@
-=== DUAL PAPER BOT — 2026-11-22 23:20 UTC ===
-ORIGINAL: 279 closed | win 53% | PF 0.61 | exp -0.139% | 5 open | equity $8,168 (-18.3%)
+=== DUAL PAPER BOT — 2026-11-23 06:16 UTC ===
+[ORIGINAL] NEW BUY SOLUSDT @ 71.3400 tgt 71.4300 sl 69.7502 RR 0.06 (11-23 05:00)
+ORIGINAL: 280 closed | win 54% | PF 0.63 | exp -0.132% | 5 open | equity $8,187 (-18.1%)
 MODIFIED: 17 closed | win 35% | PF 1.38 | exp +0.608% | 0 open | equity $10,207 (+2.1%)
