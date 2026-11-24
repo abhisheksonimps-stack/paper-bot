@@ -1,18 +1,6 @@
 {
-  "equity": 10207.145639542436,
-  "open": [
-    {
-      "symbol": "SOLUSDT",
-      "side": "BUY",
-      "entry_ts": 1795420800000,
-      "entry": 72.05,
-      "target": 78.48,
-      "sl": 69.75022,
-      "rr": 2.8,
-      "opened_at": "2026-11-23T19:01:02.078978+00:00",
-      "status": "OPEN"
-    }
-  ],
+  "equity": 10488.052298795048,
+  "open": [],
   "closed": [
     {
       "symbol": "BNBUSDT",
@@ -268,7 +256,22 @@
       "r_mult": 2.091,
       "closed_ts": 1794175200000,
       "equity_after": 10207.15
+    },
+    {
+      "symbol": "SOLUSDT",
+      "side": "BUY",
+      "entry_ts": 1795420800000,
+      "entry": 72.05,
+      "target": 78.48,
+      "sl": 69.75022,
+      "rr": 2.8,
+      "opened_at": "2026-11-23T19:01:02.078978+00:00",
+      "status": "WIN",
+      "net_pct": 8.784,
+      "r_mult": 2.752,
+      "closed_ts": 1795442400000,
+      "equity_after": 10488.05
     }
   ],
-  "last_scan_ts": 1795456800000
+  "last_scan_ts": 1795489200000
 }

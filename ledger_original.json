@@ -1,40 +1,6 @@
 {
-  "equity": 8379.669754846293,
-  "open": [
-    {
-      "symbol": "SOLUSDT",
-      "side": "BUY",
-      "entry_ts": 1795413600000,
-      "entry": 71.87,
-      "target": 72.03,
-      "sl": 69.75022,
-      "rr": 0.08,
-      "opened_at": "2026-11-23T19:01:02.063437+00:00",
-      "status": "OPEN"
-    },
-    {
-      "symbol": "BNBUSDT",
-      "side": "BUY",
-      "entry_ts": 1795446000000,
-      "entry": 571.89,
-      "target": 576.19,
-      "sl": 552.65248,
-      "rr": 0.22,
-      "opened_at": "2026-11-23T19:01:02.065819+00:00",
-      "status": "OPEN"
-    },
-    {
-      "symbol": "XRPUSDT",
-      "side": "BUY",
-      "entry_ts": 1795413600000,
-      "entry": 0.9419,
-      "target": 0.9468,
-      "sl": 0.911174,
-      "rr": 0.16,
-      "opened_at": "2026-11-23T19:01:02.068055+00:00",
-      "status": "OPEN"
-    }
-  ],
+  "equity": 8304.376582928367,
+  "open": [],
   "closed": [
     {
       "symbol": "BTCUSDT",
@@ -4310,7 +4276,52 @@
       "r_mult": -0.006,
       "closed_ts": 1795413600000,
       "equity_after": 8379.67
+    },
+    {
+      "symbol": "SOLUSDT",
+      "side": "BUY",
+      "entry_ts": 1795413600000,
+      "entry": 71.87,
+      "target": 72.03,
+      "sl": 69.75022,
+      "rr": 0.08,
+      "opened_at": "2026-11-23T19:01:02.063437+00:00",
+      "status": "WIN",
+      "net_pct": 0.083,
+      "r_mult": 0.028,
+      "closed_ts": 1795417200000,
+      "equity_after": 8382.02
+    },
+    {
+      "symbol": "BNBUSDT",
+      "side": "BUY",
+      "entry_ts": 1795446000000,
+      "entry": 571.89,
+      "target": 576.19,
+      "sl": 552.65248,
+      "rr": 0.22,
+      "opened_at": "2026-11-23T19:01:02.065819+00:00",
+      "status": "LOSS",
+      "net_pct": -3.504,
+      "r_mult": -1.042,
+      "closed_ts": 1795485600000,
+      "equity_after": 8294.71
+    },
+    {
+      "symbol": "XRPUSDT",
+      "side": "BUY",
+      "entry_ts": 1795413600000,
+      "entry": 0.9419,
+      "target": 0.9468,
+      "sl": 0.911174,
+      "rr": 0.16,
+      "opened_at": "2026-11-23T19:01:02.068055+00:00",
+      "status": "WIN",
+      "net_pct": 0.38,
+      "r_mult": 0.117,
+      "closed_ts": 1795438800000,
+      "equity_after": 8304.38
     }
   ],
-  "last_scan_ts": 1795456800000
+  "last_scan_ts": 1795489200000
 }
