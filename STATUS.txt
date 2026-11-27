@@ -1,3 +1,5 @@
-=== DUAL PAPER BOT — 2026-11-27 13:32 UTC ===
-ORIGINAL: 291 closed | win 55% | PF 0.79 | exp -0.075% | 0 open | equity $8,327 (-16.7%)
+=== DUAL PAPER BOT — 2026-11-27 22:31 UTC ===
+[ORIGINAL] NEW SELL BTCUSDT @ 60116.9700 tgt 59915.0000 sl 62373.4078 RR 0.09 (11-27 16:00)
+[ORIGINAL] NEW SELL ETHUSDT @ 1672.4600 tgt 1669.0000 sl 1758.7304 RR 0.04 (11-27 16:00)
+ORIGINAL: 291 closed | win 55% | PF 0.79 | exp -0.075% | 2 open | equity $8,327 (-16.7%)
 MODIFIED: 18 closed | win 39% | PF 1.71 | exp +1.063% | 0 open | equity $10,488 (+4.9%)
