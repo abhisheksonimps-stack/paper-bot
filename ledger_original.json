@@ -1,29 +1,6 @@
 {
-  "equity": 8327.30139453929,
-  "open": [
-    {
-      "symbol": "BTCUSDT",
-      "side": "SELL",
-      "entry_ts": 1795795200000,
-      "entry": 60116.97,
-      "target": 59915.0,
-      "sl": 62373.40782,
-      "rr": 0.09,
-      "opened_at": "2026-11-27T22:31:20.651109+00:00",
-      "status": "OPEN"
-    },
-    {
-      "symbol": "ETHUSDT",
-      "side": "SELL",
-      "entry_ts": 1795795200000,
-      "entry": 1672.46,
-      "target": 1669.0,
-      "sl": 1758.73044,
-      "rr": 0.04,
-      "opened_at": "2026-11-27T22:31:20.652597+00:00",
-      "status": "OPEN"
-    }
-  ],
+  "equity": 8332.729246881832,
+  "open": [],
   "closed": [
     {
       "symbol": "BTCUSDT",
@@ -4389,7 +4366,37 @@
       "r_mult": 0.121,
       "closed_ts": 1795640400000,
       "equity_after": 8327.3
+    },
+    {
+      "symbol": "BTCUSDT",
+      "side": "SELL",
+      "entry_ts": 1795795200000,
+      "entry": 60116.97,
+      "target": 59915.0,
+      "sl": 62373.40782,
+      "rr": 0.09,
+      "opened_at": "2026-11-27T22:31:20.651109+00:00",
+      "status": "WIN",
+      "net_pct": 0.196,
+      "r_mult": 0.052,
+      "closed_ts": 1795798800000,
+      "equity_after": 8331.65
+    },
+    {
+      "symbol": "ETHUSDT",
+      "side": "SELL",
+      "entry_ts": 1795795200000,
+      "entry": 1672.46,
+      "target": 1669.0,
+      "sl": 1758.73044,
+      "rr": 0.04,
+      "opened_at": "2026-11-27T22:31:20.652597+00:00",
+      "status": "WIN",
+      "net_pct": 0.067,
+      "r_mult": 0.013,
+      "closed_ts": 1795798800000,
+      "equity_after": 8332.73
     }
   ],
-  "last_scan_ts": 1795813200000
+  "last_scan_ts": 1795834800000
 }
